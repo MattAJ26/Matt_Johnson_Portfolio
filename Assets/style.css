@@ -1,6 +1,7 @@
 body {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background-color: rgb(171, 171, 171);
+    font-size: larger;
 }
 
 header {
@@ -46,8 +47,18 @@ section {
 
 section p {
     word-wrap: normal;
-    margin: 20px;
-    margin-right: 150px;
+    margin: 10px 50px 10px 50px;
+}
+
+#about img {
+    max-height: 10%;
+    min-width: 10%;
+    min-height: 10%;
+    max-width: 10%;
+}
+
+.container {
+    display: flex;
 }
 
 img {
